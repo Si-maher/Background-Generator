@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Background Generator review</h1>
+    <h3>The project</h3>
+    <p>This project creates rgba colors and then changes the background of the body with the new selected colors. A gradient which flows to the right is also used.<br/>
+        Technologies used are; <b>JavaScript, HTML and CSS</b>. Javascript is used to dynamically change the body into the new colors.
+    </p>
+    <h3>How it works</h3>
+    <p>Firstly, a number of variables using <b>let</b> are declared and are connected to the <b>DOM</b> through <b>getElementbyId and byElement</b>. On the index.html these variables are connected to various elements. This allows Javascript to know what to search and render.<br/>
+
+     </p>
+        <p>A function is created that when called, will render  the background color. It targets the new color's rgba value and is set as the <b>CSS textContent</b>. </p>
+
+        <h3>Problems</h3>
+        <p>The main problem was due to me having class instead of <b>ID</b> inside the html form. This returned a value in the console of 'cannot read of undefined'. After some careful code view, this was observed and duly corrected.</p>
+
+</body>
+</html>
